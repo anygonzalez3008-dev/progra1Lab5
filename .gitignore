@@ -1,0 +1,58 @@
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+CMakeLists.txt.user*
+CMakeUserPresets.json
+.qtcreator/
+.cmake/
+
+# Archivos generados por Qt
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+*.qm
+*.prl
+Makefile*
+
+# Carpetas de compilación
+build/
+build-*/
+*build-*/
+out/
+debug/
+release/
+Debug/
+Release/
+x64/
+x86/
+
+# Binarios y objetos compilados
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.so.*
+*.a
+*.lib
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.app
+
+# Visual Studio
+.vs/
+*.user
+
+# Otros editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
